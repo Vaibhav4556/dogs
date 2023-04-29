@@ -1,0 +1,62 @@
+.randomdogs{
+    display: flex;
+    flex-wrap: wrap;
+    ;
+    column-gap: 5px;
+    row-gap: 25px;
+    
+    
+    
+}
+
+.breedSelector{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 5px;
+   gap:20px
+}
+
+.form-select{
+    padding-right: 5px;
+}
+
+
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    
+  }
+ 
+  
+  .modal-body img {
+
+    transition: transform 0.5s;
+    cursor: zoom-in;
+  }
+  
+  .modal-body img:hover {
+    transform: scale(1.2);
+    cursor: zoom-out;
+  }
+  
+  
+  .subbreedbtn{
+    width: 50vh;
+
+  }
+   .subbreed{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+   }
+   .subbreedbtn:hover{
+    background-color: skyblue;
+    color: rebeccapurple;
+   }
+  
+  
+  
